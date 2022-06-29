@@ -20,24 +20,22 @@ body{
     
 }
 .plantilla:hover {
-   
+    transform: scale(1.1);
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-name:animacion;
-    animation-fill-mode: forwards;
     z-index: 1;
 }
 
 @keyframes animacion {
     0% {
         background-color:rgba(41, 31, 31, 0.555);
-        bottom: 0px;
+
     }
  
     100%{
         background-color: whitesmoke;
-        left: -50px;
-        top:-100px;
+      
     }
     
 }
